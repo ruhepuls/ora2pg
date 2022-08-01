@@ -43,7 +43,7 @@ RUN cpan install Test::NoWarnings &&\
     cpan install DBI &&\
     cpan install DBD::Pg &&\
     cpan install Bundle::Compress::Zlib &&\
-    cpanm install DBD::Oracle@1.82
+    cpanm install DBD::Oracle@1.83
 
 # Install ora2pg
 RUN curl -L -o /tmp/ora2pg.zip https://github.com/darold/ora2pg/archive/v$ORA2PG_VERSION.zip &&\
